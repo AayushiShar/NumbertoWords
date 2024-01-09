@@ -69,8 +69,11 @@ private teens=['Eleven','Twelve','Thirteen','Fourteen','Fifteen','Sixteen','Seve
 private tens=['','Ten','Twenty','Thirty','Forty','Fifty','Sixty','Seventy','Eighty','Ninety'];
 
 transform(value: number): string {
-  if(isNaN(value) || value < 0 || value > 1000000){
+  if(isNaN(value) || value < 0 || value > 1000001){
     return 'Invalid number';
+  }
+  if(value==1000000){
+    return 'Ten Lakh';
   }
 
   if(value === 0){

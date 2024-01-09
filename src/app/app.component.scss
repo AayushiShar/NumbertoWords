@@ -1,0 +1,28 @@
+div{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card{
+    margin: auto;
+    width: 500px;
+    background-color:rgb(236, 229, 229);
+    box-shadow: 10px 10px grayscale($color: #000000);
+    
+    border-radius: 30%;
+    height: 200px;
+}
+.input{
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: medium;
+}

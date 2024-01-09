@@ -1,3 +1,7 @@
 <!-- <p>{{100|numToWord}}</p> -->
-<input type="number"[(ngModel)]="name">
-<p>{{name|numToWord}}</p>
+<div class="header">Number To Word Converter</div>
+<div class="card" >
+<input type="number" placeholder="Enter your Number here" class="input" [(ngModel)]="name">
+
+<div><p>{{name|numToWord}}</p></div>
+</div>
